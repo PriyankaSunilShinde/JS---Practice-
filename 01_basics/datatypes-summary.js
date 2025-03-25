@@ -22,21 +22,41 @@
 
 // Array, Objects, Functions
 
-const heros = ["shaktiman", "Naagraj", "Doga"];
-console.log(typeof heros); // output - object
+// const heros = ["shaktiman", "Naagraj", "Doga"];
+// console.log(typeof heros); // output - object
 
 
-let myObj = {
-    namr: "Priyanka",
-    age: 33
+// let myObj = {
+//     namr: "Priyanka",
+//     age: 33
+// }
+// console.log(typeof myObj); // output - object
+
+
+// const myFunction = function(){
+//     console.log("Hello World");
+// }
+// console.log(typeof myFunction); // output - function
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Stack (Primitive), Heap(Non-Primitive)
+
+// let myYoutubeName = "PriyankaShindeDotCom";
+// let anotherName = myYoutubeName;
+// anotherName = "ChaiAurCode";
+
+// console.log(myYoutubeName);
+// console.log(anotherName);
+
+let userOne = {
+    email : "pss@gmail.com",
+    upi : "user@ybl"
 }
-console.log(typeof myObj); // output - object
 
+let userTwo = userOne;
+userTwo.email = "rnd@gmail.com";
 
-const myFunction = function(){
-    console.log("Hello World");
-}
-console.log(typeof myFunction); // output - function
-
-
+console.log(userOne.email);
+console.log(userTwo.email);
 
