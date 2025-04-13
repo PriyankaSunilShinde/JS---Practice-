@@ -22,15 +22,15 @@ const dc_heros = ["SuperMan", "Flash", "BatMan"];
 // const real_another_array = another_array.flat(Infinity);
 // console.log(real_another_array);
 
-// console.log(Array.isArray("Rupesh"));
-// console.log(Array.from("Priyanka"));
-// console.log(Array.from({name: "Riyansh"})); //***************IMPORTANT****************** $$ returns empty array $$
+console.log(Array.isArray("Rupesh"));
+console.log(Array.from("Priyanka"));
+console.log(Array.from({name: "Riyansh"})); //***************IMPORTANT****************** $$ returns empty array $$
 
 
-// let score_1 = 100;
-// let score_2 = 200;
-// let score_3 = 300;
-// console.log(Array.of(score_1,score_2,score_3));
+let score_1 = 100;
+let score_2 = 200;
+let score_3 = 300;
+console.log(Array.of(score_1,score_2,score_3));
 
 
 
