@@ -68,13 +68,66 @@ const Users = [
     }    
 ]
 
-console.log(Users[1].email_address); //output - ps@gmail.com
-console.log(tinderUser); //output - { id: '123abc', name: 'Sam', isLoggedIn: false }
-console.log(Object.keys(tinderUser)); //output - [ 'id', 'name', 'isLoggedIn' ]
-console.log(Object.values(tinderUser)); //output - [ '123abc', 'Sam', false ]
-console.log(Object.entries(tinderUser)); //output - [ [ 'id', '123abc' ], [ 'name', 'Sam' ], [ 'isLoggedIn', false ] ]
-console.log(tinderUser.hasOwnProperty("isLoggedIn")); //output - true
-console.log(tinderUser.hasOwnProperty("isLogin")); //output - false
+// console.log(Users[1].email_address); //output - ps@gmail.com
+// console.log(tinderUser); //output - { id: '123abc', name: 'Sam', isLoggedIn: false }
+// console.log(Object.keys(tinderUser)); //output - [ 'id', 'name', 'isLoggedIn' ]
+// console.log(Object.values(tinderUser)); //output - [ '123abc', 'Sam', false ]
+// console.log(Object.entries(tinderUser)); //output - [ [ 'id', '123abc' ], [ 'name', 'Sam' ], [ 'isLoggedIn', false ] ]
+// console.log(tinderUser.hasOwnProperty("isLoggedIn")); //output - true
+// console.log(tinderUser.hasOwnProperty("isLogin")); //output - false
+
+
+
+const course = {
+    courseName : "JS in Hindi",
+    price : "999",
+    courseInstructor : "Hitesh Choudhary"
+};
+
+console.log(course.courseInstructor);// output - Hitesh Choudhary
+
+const {courseInstructor} = course;
+console.log(courseInstructor); // output - Hitesh Choudhary
+
+const {courseInstructor: Instructor} = course;
+console.log(Instructor); // output - Hitesh Choudhary
+
+
+
+// @@@@@@@@@@@@@@@@  React @@@@@@@@@@@@@@@@@@
+const navbar = ({company}) => { 
+        // here, props.company = company ie.object destructuring is done here
+};
+navbar(company = "Hitesh")
+// @@@@@@@@@@@@@@@@  React @@@@@@@@@@@@@@@@@@
+
+
+
+
+// ############### JSON ####################
+// {
+//     "name" : "Priyanka",
+//     "coursename" : "chai aur code in JS",
+//     "price" : "Free"
+// }
+// ############### JSON ####################
+
+
+
+
+// https://api.github.com/users/hiteshchoudhary   ---> API
+
+// randomuser me api 
+
+//use online json formatter to understand JSON
+
+
+
+
+
+
+
+
  
 
 
