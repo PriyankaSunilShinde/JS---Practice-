@@ -1,6 +1,8 @@
 
 //this keyword
 
+
+
 /*
     1.In browser this prints the window object
     2.In node environment this prints the empty object   
